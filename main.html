@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Title</title>
+    <!--  Begin Imports -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <!--  End Imports -->
+
+</head>
+<body style="background: #143a52;">
+
+
+<div class="row">
+    <div class="col l4 offset-l4 s12 m12">
+        <div id="ping" style="">...</div>
+        <div id="label">Ping rate</div>
+    </div>
+    <div class="col l4 offset-l4 s12 m12">
+        <div class="input-field">
+            <input id="url" spellcheck="false" value="riot.de">
+            <label for="url">URL ou IP</label>
+        </div>
+
+
+    </div>
+    <div class="col l4 offset-l4 s12 m12">
+        <div class="input-field">
+            <input id="maxi" spellcheck="false" type="number" value="85">
+            <label for="maxi">MAX PING</label>
+        </div>
+    </div>
+
+</div>
+
+<div id="courbe">
+    <div class="ct-chart" style="height: 500px"></div>
+</div>
+
+
+<!-- Begin imports  -->
+<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+<script src="node_modules/mdbootstrap/js/jquery-2.2.3.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/jquery.textillate.js"></script>
+<script src="node_modules/mathjs/dist/math.min.js"></script>
+<script src="node_modules/web-pingjs/ping.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js">
+</script><!--  End Imports -->
+
+</body>
+</html>

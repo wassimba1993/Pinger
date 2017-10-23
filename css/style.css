@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    font-family: "advent pro";
+    color: #04151F;
+}
+
+#ping {
+    font-size: 100px;
+    text-align: center;
+    color: #E3EFF3;
+}
+
+#courbe {
+    position: absolute;
+    height: 505px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#label {
+    font-size: 25px;
+    text-align: center;
+    color: #E3EFF3;
+}
+
+#url, #maxi {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
